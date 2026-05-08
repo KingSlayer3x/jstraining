@@ -166,7 +166,7 @@ Sidebar
   color: var(--clr-primary-5);
   transition: var(--transition);
   cursor: pointer;
-  animation: bounce 2s ease-in-out infinite;
+  /* animation: bounce 2s ease-in-out infinite; */
 }
 .sidebar-toggle:hover {
   color: var(--clr-primary-7);
@@ -247,13 +247,13 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);
 }
 @media screen and (min-width: 676px) {
   .sidebar {
-    width: 400px;
+    width: 350px;
   }
 }

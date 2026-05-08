@@ -194,6 +194,7 @@ main {
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1.5rem;
+  z-index: 999;
 }
 #person-img {
   width: 100%;
@@ -202,6 +203,7 @@ main {
   object-fit: cover;
   border-radius: 50%;
   position: relative;
+  z-index: 1;
 }
 .img-container::after {
   font-family: "Font Awesome 5 Free";
@@ -218,6 +220,8 @@ main {
   transform: translateY(25%);
   background: var(--clr-primary-5);
   color: var(--clr-white);
+  z-index: 999;
+
 }
 .img-container::before {
   content: "";
